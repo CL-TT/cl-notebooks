@@ -1,0 +1,27 @@
+# For-in循环
+
+1. 取出对象的所有属性名，每次循环将其中一个属性名赋值给变量prop，运行循环体。
+
+   ```javascript
+   var obj = {
+       name: 'caolei',
+       age: 20,
+       sex: 'nan'
+   }
+   
+   for(let prop in obj){
+       console.log(prop) // name, age, sex
+   }
+   
+   
+   var arr = [1, 2, 3, 4]
+   
+   for(let index in arr){
+       console.log(index) //  0, 1, 2, 3
+   }
+   ```
+
+2.  和for循环的区别
+
+   1. for in 遍历的是属性名，必须要求这个属性名的值存在，当对稀松数组时因为有的索引不存在所以根本不会遍历到
+   2. for循环遍历稀松数组时，对索引不存在的值时，他会输出undefined

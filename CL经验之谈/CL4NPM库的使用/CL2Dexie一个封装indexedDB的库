@@ -1,0 +1,45 @@
+# Dexie
+
+Dexie是一个封装了IndexedDB api的轻量级js库，提供了简化且强大的数据库操作方式
+
+
+
+## 基本使用示例
+
+```js
+1. 安装
+
+npm i dexie
+
+2. 使用
+
+import dexie from 'dexie'
+
+//创建数据库实例
+const db = new Dexie('MyDataBase')
+
+//定义数据库的表结构
+db.version(1).stores({
+    表名: '++id, name, age'
+})
+
+//打开数据库
+db.open().catch(() => {
+    
+})
+
+//添加数据
+db.表名.add({ name: '', age: '' }).then(() => {
+    
+})
+
+//查询数据
+db.表名.where()
+
+//更新数据
+db.表名.update(id, { name: '' })
+
+//删除数据
+db.表名.where().delete()
+```
+
