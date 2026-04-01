@@ -8,10 +8,10 @@
 
 ```js
 # 使用 npm
-npm create vite@latest my-react-app -- --template react
+npm create vite@latest my-react-app --template react
 
 # 若用 TypeScript（推荐，有类型提示）
-npm create vite@latest my-react-app -- --template react-ts
+npm create vite@latest my-react-app --template react-ts
 
 # 若用 yarn
 yarn create vite my-react-app --template react
@@ -26,7 +26,7 @@ yarn create vite my-react-app --template react
 npx create-react-app my-react-app
 
 # TypeScript 版本
-npx create-react-app my-react-app --template typescript
+npx create-react-app my-react-app --typescript
 
 # yarn
 yarn create react-app my-react-app
