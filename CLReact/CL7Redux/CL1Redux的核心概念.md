@@ -6,4 +6,4 @@
 
 ## 2. redux的使用
 
-![redux1](D:\CL武林秘籍\画图\redux1.png)
+![redux1](D:\cl-notebooks\画图\redux1.png)

@@ -1,13 +1,13 @@
 # React路由
 
-## 1. 最佳实践
+## 1. 最佳实践 v6.4以前
 
 ```jsx
 1. 安装路由 
 
 npm i react-router-dom
 yarn add react-router-dom
-
+yarn add react-router
 
 2. 配置路由的使用
 
@@ -84,6 +84,14 @@ function App() {
 }
 
 如果有嵌套路由， 路由的出口使用<outlet />
+```
+
+
+
+## 2. 最佳实践 v6.4 之后  RouterProvider
+
+```
+
 ```
 
 

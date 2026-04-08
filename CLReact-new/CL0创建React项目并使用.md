@@ -26,10 +26,10 @@ yarn create vite my-react-app --template react
 npx create-react-app my-react-app
 
 # TypeScript 版本
-npx create-react-app my-react-app --typescript
+npx create-react-app my-react-app --template typescript
 
 # yarn
-yarn create react-app my-react-app
+yarn create react-app my-ts-app --template typescript
 ```
 
 

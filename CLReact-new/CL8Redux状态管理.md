@@ -89,7 +89,7 @@ const userSlice = createSlice({
     }
 })
 export const { add } = userSlice.actions
-export default userSlice
+export default userSlice.reducer
 
 仓库的使用
 
