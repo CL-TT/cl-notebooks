@@ -20,6 +20,14 @@ pnpm create vue@latest
 npm init vite@latest
 
 npm create vite@latest
+
+
+
+# Vue CLI 方式
+vue create my-project
+
+# Vite 方式（推荐）
+npm create vue@latest
 ```
 
 

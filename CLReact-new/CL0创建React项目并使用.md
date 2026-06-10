@@ -7,6 +7,8 @@
 这种方式可能需要node 20版本以上
 
 ```js
+npm create vite@latest
+
 # 使用 npm
 npm create vite@latest my-react-app --template react
 
